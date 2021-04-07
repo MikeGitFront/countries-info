@@ -1,28 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
-const Item = ({ continent, name }) => {
-    const [code, setCode] = useState(null)
-
-
-    const translateToHtmlCode = (str) => {
-        const code = str.split(' ').map(i => `&#x${i.slice(2)};`).join('')
-        console.log(code)
-        setCode(code)
-    }
-
-    useEffect(() => {
-        translateToHtmlCode('U+1F1E6 U+1F1E9')
-    }, [])
-
+const Item = ({ continent, name, iso, emoji }) => {
     return (
-        <div style={{ padding: '8px 12px', borderRadius: '1px solid black', boxShadow: '0px 0px 2px 1px black' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ padding: '10px 16px', borderRadius: '1px solid black', boxShadow: '0px 0px 2px 1px black' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <h3 style={{ margin: '0 10px 0 0' }}>{name}</h3>
-                <p>{code}</p>
+                <p style={{ margin: 0 }}>{emoji}</p>
             </div>
-            <div>
-                <p>ISO code:</p>
-                <p>Continent: {continent}</p>
+            <div style={{ marginTop: '10px' }}>
+                <p style={{ margin: 0 }}>ISO code: {iso}</p>
+                <p style={{ margin: 0 }}>Continent: {continent}</p>
             </div>
         </div>
     )
