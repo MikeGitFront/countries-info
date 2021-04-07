@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/.github.io/Countries-info/static/css/main.941d383b.chunk.css",
+    "main.js": "/.github.io/Countries-info/static/js/main.4a60da28.chunk.js",
+    "main.js.map": "/.github.io/Countries-info/static/js/main.4a60da28.chunk.js.map",
+    "runtime-main.js": "/.github.io/Countries-info/static/js/runtime-main.179c0b0c.js",
+    "runtime-main.js.map": "/.github.io/Countries-info/static/js/runtime-main.179c0b0c.js.map",
+    "static/css/2.a5497ee8.chunk.css": "/.github.io/Countries-info/static/css/2.a5497ee8.chunk.css",
+    "static/js/2.1ce7185a.chunk.js": "/.github.io/Countries-info/static/js/2.1ce7185a.chunk.js",
+    "static/js/2.1ce7185a.chunk.js.map": "/.github.io/Countries-info/static/js/2.1ce7185a.chunk.js.map",
+    "static/js/3.8b539ce0.chunk.js": "/.github.io/Countries-info/static/js/3.8b539ce0.chunk.js",
+    "static/js/3.8b539ce0.chunk.js.map": "/.github.io/Countries-info/static/js/3.8b539ce0.chunk.js.map",
+    "index.html": "/.github.io/Countries-info/index.html",
+    "static/css/2.a5497ee8.chunk.css.map": "/.github.io/Countries-info/static/css/2.a5497ee8.chunk.css.map",
+    "static/css/main.941d383b.chunk.css.map": "/.github.io/Countries-info/static/css/main.941d383b.chunk.css.map",
+    "static/js/2.1ce7185a.chunk.js.LICENSE.txt": "/.github.io/Countries-info/static/js/2.1ce7185a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.179c0b0c.js",
+    "static/css/2.a5497ee8.chunk.css",
+    "static/js/2.1ce7185a.chunk.js",
+    "static/css/main.941d383b.chunk.css",
+    "static/js/main.4a60da28.chunk.js"
+  ]
+}
