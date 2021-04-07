@@ -1,6 +1,6 @@
 <h1>Countries list</h1>
 
-<h2>You can test it right<a src="https://mikegitfront.github.io/countries-info/" >here</a></h2>
+<h2>You can test it right <a url="https://mikegitfront.github.io/countries-info/" >here</a></h2>
 
 <h3>Tech Stack</h3>
 <ul>
